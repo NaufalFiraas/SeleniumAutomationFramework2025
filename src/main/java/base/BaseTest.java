@@ -12,7 +12,7 @@ public class BaseTest {
     public void setUp() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://admin-demo.nopcommerce.com/login");
+        driver.get("https://www.saucedemo.com/");
     }
 
     @AfterMethod
